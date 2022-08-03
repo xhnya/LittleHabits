@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+    <fragment
+        android:id="@+id/navigation_today"
+        android:name="com.xhnya.habits.fragment.TodayFragment"
+        tools:layout="@layout/navigation_today" />
+
+    <fragment
+        android:id="@+id/navigation_all"
+        android:name="com.xhnya.habits.fragment.AllFragment"
+        tools:layout="@layout/navigation_all" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.xhnya.habits.fragment.UserFragment"
+        tools:layout="@layout/navigation_user" />
+
+</navigation>

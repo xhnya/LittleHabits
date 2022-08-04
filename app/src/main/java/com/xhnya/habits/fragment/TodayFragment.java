@@ -12,6 +12,7 @@ import com.xhnya.habits.R;
 import org.jetbrains.annotations.NotNull;
 
 public class TodayFragment extends Fragment {
+    @Override
     public View onCreateView(@NotNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View root=inflater.inflate(R.layout.navigation_today,container,false);
         return root;

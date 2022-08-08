@@ -48,6 +48,8 @@ dependencies {
 
     //选项卡https://github.com/florent37/MaterialViewPager
     compile 'com.github.florent37:materialviewpager:1.2.3'
+    //展开折叠 https://github.com/Manabu-GT/ExpandableTextView
+    compile 'com.ms-square:expandableTextView:0.1.4'
     //dependencies
     compile 'com.flaviofaria:kenburnsview:1.0.7'
     compile 'com.jpardogo.materialtabstrip:library:1.1.0'

@@ -7,16 +7,16 @@
     <fragment
         android:id="@+id/navigation_today"
         android:name="com.xhnya.habits.fragment.TodayFragment"
-        tools:layout="@layout/navigation_today" />
+        tools:layout="@layout/fragment_today" />
 
     <fragment
         android:id="@+id/navigation_all"
         android:name="com.xhnya.habits.fragment.AllFragment"
-        tools:layout="@layout/navigation_all" />
+        tools:layout="@layout/fragment_all" />
 
     <fragment
         android:id="@+id/navigation_user"
         android:name="com.xhnya.habits.fragment.UserFragment"
-        tools:layout="@layout/navigation_user" />
+        tools:layout="@layout/fragment_user" />
 
 </navigation>

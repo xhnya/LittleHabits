@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class UserFragment  extends Fragment {
     public View onCreateView(@NotNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View root=inflater.inflate(R.layout.navigation_user,container,false);
+        View root=inflater.inflate(R.layout.fragment_user,container,false);
         return root;
     }
 

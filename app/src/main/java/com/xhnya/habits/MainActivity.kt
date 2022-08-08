@@ -17,9 +17,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        //设置状态栏为全透明
-        StatusBarUtil.setTransparent(this@MainActivity)
+//
+//        //设置状态栏为全透明
+//        StatusBarUtil.setTranslucent(this@MainActivity)
 
         //底部导航栏
         // 获取页面上的底部导航栏控件

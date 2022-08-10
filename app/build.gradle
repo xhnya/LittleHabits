@@ -58,5 +58,10 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //布局https://github.com/google/flexbox-layout
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    //圆形图片显示https://github.com/lopspower/CircularImageView
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
 
 }

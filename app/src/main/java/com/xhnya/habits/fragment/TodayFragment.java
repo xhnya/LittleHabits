@@ -7,7 +7,9 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+
 import com.xhnya.habits.R;
+
 
 import org.jetbrains.annotations.NotNull;
 
@@ -19,5 +21,6 @@ public class TodayFragment extends Fragment {
         View root=inflater.inflate(R.layout.fragment_today,container,false);
         return root;
     }
+
 
 }

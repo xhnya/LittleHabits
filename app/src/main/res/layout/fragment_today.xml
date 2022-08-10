@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#dddddd"
+    app:alignItems="flex_start"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
+    <com.google.android.flexbox.FlexboxLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch" >
 
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            app:layout_flexBasisPercent="36%"
+            android:text="1"
+            app:layout_alignSelf='center'
+            />
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/vae"
+            app:civ_border_color="#3f51b5"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10dp"
+            app:civ_shadow_color="#3f51b5"/>
 
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            app:layout_flexBasisPercent="28%"
+            android:text="2"
+            app:layout_alignSelf='center'
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="3"
+            app:layout_flexBasisPercent="36%"
+            app:layout_alignSelf='center'
+            />
+    </com.google.android.flexbox.FlexboxLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout >
